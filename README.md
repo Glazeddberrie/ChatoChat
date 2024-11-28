@@ -31,4 +31,4 @@ Hay 3 maneras en las que puedes iniciar tu cuenta de Firebase en el proyecto:
    - Entra en el apartado "Tools" en AndroidStudio y selecciona Firebase, agrega Cloud Firestore [Java] y Authentication [Java]
      
 3. **Descarga el binario precompilado**:
-   - Entra al siguiente link 
+   - Entra al siguiente link https://github.com/Glazeddberrie/ChatoChat/releases y descarga el binario precompilado más reciente
