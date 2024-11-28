@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextSearchUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Buscar usuario por correo"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/buttonStartChat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciar chat"
+        android:enabled="false"/>
+
+    <TextView
+        android:id="@+id/textViewUserFound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Usuario encontrado: "
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
